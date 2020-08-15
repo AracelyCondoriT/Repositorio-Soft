@@ -1,4 +1,4 @@
-
+hola chicas que tal
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
@@ -13,7 +13,7 @@ import javafx.beans.property.StringProperty;
 public class datosEconomicos {
 	private FloatProperty costoCarr;
 	private StringProperty formPagBox;
-	private StringProperty pagoCarrBox;
+	private Pago, fecha 
 	private StringProperty fechaPago;
 	private IntegerProperty nroPagoBox;
 	private IntegerProperty nroCuotaBox;
