@@ -1,0 +1,40 @@
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import javax.swing.JOptionPane;
+import controlador.controlRegistro;
+import javafx.beans.property.FloatProperty;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleFloatProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+
+public class datosEconomicos {
+	private FloatProperty costoCarr;
+	private StringProperty formPagBox;
+	private StringProperty pagoCarrBox;
+	private StringProperty fechaPago;
+	private IntegerProperty nroPagoBox;
+	private IntegerProperty nroCuotaBox;
+	private FloatProperty monto;
+	private FloatProperty deuda;
+	private FloatProperty saldo;
+	private FloatProperty desc;
+	private StringProperty obsEco;
+	
+	public datosEconomicos(float costoCarr, String formPagBox, String pagoCarrBox, String fechaPago, int nroPagoBox,int nroCuotaBox,float monto,float deuda,  
+			float saldo,float desc, String obsEco) {
+	
+		this.costoCarr =  new SimpleFloatProperty(costoCarr);
+		this.formPagBox = new SimpleStringProperty(formPagBox);
+		this.pagoCarrBox =  new SimpleStringProperty(pagoCarrBox);
+		this.fechaPago =  new SimpleStringProperty(fechaPago);
+		this.nroPagoBox =  new SimpleIntegerProperty(nroPagoBox);
+		this.nroCuotaBox =  new SimpleIntegerProperty(nroCuotaBox);
+		this.monto =  new SimpleFloatProperty(monto);
+		this.deuda =  new SimpleFloatProperty(deuda);
+		this.saldo=  new SimpleFloatProperty(saldo);
+		this.desc =  new SimpleFloatProperty(desc);
+		this.obsEco =  new SimpleStringProperty(obsEco);
+	}
