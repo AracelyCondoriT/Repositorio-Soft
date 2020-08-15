@@ -1,2 +1,50 @@
-hola Cori esto es una prueba
+hola Cori la prueba resultara?
+
+
+iprueba
+prueba
+nav id="menu">
+  <ul>
+ 
+
+      <li><a href="formulario_estudiante.php">AGREGAR ESTUDIANTE</a></li>
+     <li><a href="tabla_estudiante.php">LISTA DE ESTUDIANTES</a></li>
+   
+  </ul>
+</nav>
+<body>
+<br></br>
+	<section id="container">
+		<div class="form_register">
+			<h1>REGISTRO DE ESTUDIANTES</h1>
+<br></br>
+			
+			<form  action="operacion_estudiante.php" method="POST">
+
+			    <label for="CI">NUMERO DE CARNET </label>
+				<input type="number" name="CI" id="CI"placeholder="NUMERO  CI">
+
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" placeholder="NOMBRE COMPLETO"> 
+
+
+				<label for="telefono">Telefono</label>
+				<input type="number"name="telefono" id="telefono" placeholder="TELEFONO">
+
+
+
+                <label for="direccion">Direccion</label>
+				<input type="text" name="direccion" id= "direccion"placeholder="DIRECCION"> 
+
+
+
+				<input type="submit" value="GUARDAR " class="btn_save">
+
+			</form>
+		</div>
+	</section>
+	<BR></BR>	<BR></BR>
+
+</body>
+</html> java.txtprueba
 
