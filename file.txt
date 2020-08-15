@@ -16,4 +16,24 @@ public class datosEconomicos {
 	public datosEconomicos(float costoCarr, String formPagBox, String pagoCarrBox, String fechaPago, int nroPagoBox,int nroCuotaBox,float monto,float deuda,  
 			float saldo,float desc, String obsEco) {
 
-	}
+	}<!DOCTYPE html>
+<html>
+<head>
+  <title> Guardar </title>
+</head>
+<header>
+ <link type="text/css" href="css/registro.css" rel="stylesheet">
+<img src="img/img2.jpg" width=100% height=550>
+</header>
+
+<nav id="menu">
+  <ul>
+     <li><a href="formulario.php">AGREGAR PAQUETES DE CLIENTES</a></li>
+     <li><a href="tabla.php">LISTA DE CLIENTES </a></li>
+
+
+  </ul>
+</nav>
+<body>
+
+
