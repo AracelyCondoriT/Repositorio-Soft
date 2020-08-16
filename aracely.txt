@@ -17,6 +17,7 @@ public class TestCalculadora{
                 numero1 = sc.nextLine();
             } while (!numero1.matches("[+-]?[\\d]*[.]?[\\d]+"));
             double nume1 = Double.parseDouble(numero1);
+	    double numero= Double.parseInt(nuemero);
             double n1 = new Double(numero1);
             // Fin de la verificación de los datos puestos por el usuario del número 1.
  
