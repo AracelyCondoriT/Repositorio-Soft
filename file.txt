@@ -18,6 +18,7 @@ public class datosEco
 icorina rebe ara                    gdiusdsuidhsuhoisjcdojcdoijsohfeiuhfiurehfe hola mundo
 this.=this.;
 formaPago
+pago neto
 	
 	public datosEconomicos(float costoCarr, String formPagBox, String pagoCarrBox, String fechaPago, int nroPagoBox,int nroCuotaBox,float monto,float deuda,  
 			float saldo,float desc, String obsEco) {
@@ -36,7 +37,9 @@ formaPago
 i  <ul>
      <li><a href="formulario.php">AGREGAR PAQUETES DE CLIENTES</a></li>
      <li><a href="tabla.php">LISTA DE CLIENTES </a></li>
-
+     <head>
+     	<title> modificado </title>
+     </head>
 
   </ul>
 </nav>
