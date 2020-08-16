@@ -1,4 +1,8 @@
 hola chicas que tal
+ya pude arreglarlo... 
+coriiii
+rebee
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
@@ -24,7 +28,7 @@ formaPago
   <title> Guardar </title>
 </head>
 <header>
- <link type="text/css" href="css/registro.css" rel="stylesheet">
+ <link ="text/css" href="css/registro.css" rel="stylesheet">
 <img src="img/img2.jpg" width=100% height=550>
 </header>
 
