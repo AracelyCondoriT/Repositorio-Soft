@@ -1,5 +1,5 @@
 hola Cori la prueba resultara?
-
+holaa coriii
 
 iprueba
 prueba
@@ -19,7 +19,7 @@ nav id="menu">
 			<h1>REGISTRO DE ESTUDIANTES</h1>
 <br></br>
 			
-			<form  action="operacion_estudiante.php" method="POST">
+			<form  action="operacion.php" method="POST">
 
 			    <label for="CI">NUMERO DE CARNET </label>
 				<input type="number" name="CI" id="CI"placeholder="NUMERO  CI">
@@ -33,7 +33,7 @@ nav id="menu">
 
 
 
-                <label for="direccion">Direccion</label>
+                <label for="direccion">Direcc</label>
 				<input type="text" name="direccion" id= "direccion"placeholder="DIRECCION"> 
 
 
