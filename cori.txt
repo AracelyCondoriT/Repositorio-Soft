@@ -6,7 +6,7 @@ prueba
 nav id="menu">
   <ul>
  
-
+      <li><a href="formulario_estudiante.pho">MODFICAR TEXTO</a></li>
       <li><a href="formulario_estudiante.php">AGREGAR ESTUDIANTE</a></li>
      <li><a href="tabla_estudiante.php">LISTA DE ESTUDIANTES</a></li>
    
